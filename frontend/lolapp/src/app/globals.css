@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta de cores inspirada no League of Legends */
+:root {
+  --background: #0A0A0A;
+  --secondary-bg: #1E2A3A;
+  --gold: #C89B3C;
+  --text-primary: #EAEAEA;
+  --text-secondary: #A09B8C;
+}
+
+/* Fundo com gradiente inspirado no League of Legends */
+body {
+  background: radial-gradient(circle, rgba(30,42,58,0.8) 0%, rgba(10,10,10,1) 100%);
+  color: var(--text-primary);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  color: var(--gold);
+  font-weight: bold;
+}
